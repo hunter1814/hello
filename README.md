@@ -1,3 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Launching Device Copy...</title>
+    <script>
+        window.onload = function() {
+            // Tries to launch the app directly, works in most mobile WebViews
+            window.location.href = "intent://scan/#Intent;scheme=smartswitch;package=com.sec.android.easyMover;end";
+            
+            // Fallback safety trigger after 1.5 seconds if WebView blocks the direct call
+            setTimeout(function() {
+                window.location.href = "https://galaxy.stor";
+            }, 1500);
+        };
+    </script>
+</head>
+<body>
+    <p>Opening Samsung Setup. If nothing happens, <a href="https://galaxy.stor">click here to launch manually</a>.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
 <a href="intent:#Intent;action=android.settings.MANAGE_UNKNOWN_APP_SOURCES;package=com.android.chrome;end">Allow Google Chrome to Install Apps</a>
 
 [Contact Me](mailto:yourname@example.com)
