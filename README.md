@@ -23,3 +23,18 @@ https://www.enable-javascript.com/
 * **Smart Switch App Launch:** [Launch Smart Switch](intent://scan/#Intent;scheme=smartswitch;package=com.sec.android.easyMover;end)
 * **Google Device Copy Tool:** [Launch Google Restore Tool](intent://#Intent;package=com.google.android.apps.restore;end)
 * **Raw URI Protocol:** `com.sec.android.easyMover://`
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=intent://scan/#Intent;scheme=smartswitch;package=com.sec.android.easyMover;end">
+    <title>Redirecting to Samsung Setup...</title>
+</head>
+<body>
+    <p>If the app does not open automatically, <a href="intent://scan/#Intent;scheme=smartswitch;package=com.sec.android.easyMover;end">click here</a>.</p>
+</body>
+</html>
