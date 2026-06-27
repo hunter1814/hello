@@ -77,3 +77,48 @@ https://www.enable-javascript.com/
     <p>If the app does not open automatically, <a href="intent://scan/#Intent;scheme=smartswitch;package=com.sec.android.easyMover;end">click here</a>.</p>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>System Quick Launcher</title>
+    <script>
+        function launchSettings() {
+            // Opens the main system settings dashboard
+            window.location.href = "intent:#Intent;action=android.settings.SETTINGS;end";
+        }
+
+        function launchAppsList() {
+            // Bypasses main menu and jumps straight to Settings -> Apps management
+            window.location.href = "intent:#Intent;action=android.settings.APPLICATION_SETTINGS;end";
+        }
+
+        function launchCamera() {
+            // Triggers the system default camera application hardware handler
+            window.location.href = "intent:#Intent;action=android.media.action.IMAGE_CAPTURE;end";
+        }
+    </script>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        button { display: block; width: 80%; max-width: 300px; margin: 20px auto; padding: 15px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>System Shortcut Manager</h2>
+    <button onclick="launchSettings()">⚙️ Open Main Settings</button>
+    <button onclick="launchAppsList()">📱 Open App Management</button>
+    <button onclick="launchCamera()">📷 Open Device Camera</button>
+</body>
+</html>
