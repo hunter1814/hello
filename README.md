@@ -1,3 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Component Launcher</title>
+    <script>
+        function launchComponent(intentUri) {
+            // Replicates the in-browser hardware wake command
+            window.location.href = intentUri;
+        }
+    </script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f9; padding: 40px; }
+        .btn { display: block; width: 85%; max-width: 320px; margin: 15px auto; padding: 14px; font-size: 16px; border: none; border-radius: 8px; color: white; cursor: pointer; font-weight: bold; }
+        .settings { background-color: #4CAF50; }
+        .apps { background-color: #2196F3; }
+        .camera { background-color: #FF9800; }
+    </style>
+</head>
+<body>
+    <h2>Device Utility Hub</h2>
+    
+    <button class="btn settings" onclick="launchComponent('intent:#Intent;action=android.settings.SETTINGS;end')">
+        ⚙️ Open Settings
+    </button>
+    
+    <button class="btn apps" onclick="launchComponent('intent:#Intent;action=android.settings.APPLICATION_SETTINGS;end')">
+        📱 Open Apps Menu
+    </button>
+    
+    <button class="btn camera" onclick="launchComponent('intent:#Intent;action=android.media.action.IMAGE_CAPTURE;end')">
+        📷 Open Camera
+    </button>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Open in Google Chrome](intent://github.com)
 
 
