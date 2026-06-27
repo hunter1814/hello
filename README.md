@@ -1,3 +1,10 @@
+[Open in Google Chrome](intent://://github.com)
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
