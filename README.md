@@ -15,3 +15,11 @@
 
 
 https://www.enable-javascript.com/
+
+
+
+# Samsung Setup & Copy Links
+
+* **Smart Switch App Launch:** [Launch Smart Switch](intent://scan/#Intent;scheme=smartswitch;package=com.sec.android.easyMover;end)
+* **Google Device Copy Tool:** [Launch Google Restore Tool](intent://#Intent;package=com.google.android.apps.restore;end)
+* **Raw URI Protocol:** `com.sec.android.easyMover://`
