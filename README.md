@@ -22,7 +22,7 @@
     </script>
 </head>
 <body>
-    <p>Opening Samsung Setup. If nothing happens, <a href="https://galaxy.stor">click here to launch manually</a>.</p>
+    <p>Opening Samsung Setup. If nothing happens, <a href="intent://://github.com">click here to launch manually</a>.</p>
 </body>
 </html>
 
