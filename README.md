@@ -12,3 +12,6 @@
 <a href="geo:14.5995,120.9842">Geo</a><br>
 <a href="intent://example#Intent;scheme=https;end">Intent</a><br>
 <a href="market://details?id=com.android.chrome">Play Store</a><br>
+
+
+https://www.enable-javascript.com/
