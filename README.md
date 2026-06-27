@@ -1,4 +1,4 @@
-[Open in Google Chrome](intent://://github.com)
+[Open in Google Chrome](intent://github.com)
 
 
 
