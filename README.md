@@ -1,4 +1,22 @@
-<!DOCTYPE html>
+# Device Quick Access Panel
+
+* **Open Device Settings:** [Launch Settings](intent:#Intent;action=android.settings.SETTINGS;end)
+* **Open Apps Menu:** [Launch Installed Apps](intent:#Intent;action=android.settings.APPLICATION_SETTINGS;end)
+* **Launch Native Camera:** [Open Camera App](intent:#Intent;action=android.media.action.IMAGE_CAPTURE;end)
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+* <!DOCTYPE html>
 <html>
 <head>
     <title>Quick Component Launcher</title>
