@@ -15,10 +15,31 @@ test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.V
 </a>
 
 <!-- The click link -->
-<a href="https://example.com" target="webview-box">Click to open inside container</a>
+<a href="https://google.com" target="webview-box">Click to open inside container</a>
 
 <!-- The box container that mimics a WebView -->
 <iframe name="webview-box" style="width:100%; height:500px; border:1px solid #ccc;"></iframe>
+
+
+<!-- The button the user clicks -->
+<button onclick="openGoogleLogin()">Log In with Google</button>
+
+<script>
+function openGoogleLogin() {
+    // 1. Define the dimensions and position of the new popup window
+    const width = 500;
+    const height = 600;
+    const left = (window.screen.width / 2) - (width / 2);
+    const top = (window.screen.height / 2) - (height / 2);
+
+    // 2. Open accounts.google.com in a cleanly sized window
+    window.open(
+        "https://google.com", 
+        "GoogleLoginWindow", 
+        `width=${width},height=${height},top=${top},left=${left},resizable=yes,scrollbars=yes`
+    );
+}
+</script>
 
 
 *
