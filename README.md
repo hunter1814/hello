@@ -8,8 +8,17 @@
 *
 *
 *
-intent://www.example.com#Intent;scheme=https;action=android.intent.action.VIEW;end;
+test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.VIEW;end)
 
+<a href="intent://www.google.com#Intent;scheme=https;action=android.intent.action.VIEW;component=com.android.chrome;end;">
+   Click to Open in WebView-style Tab
+</a>
+
+<!-- The click link -->
+<a href="https://example.com" target="webview-box">Click to open inside container</a>
+
+<!-- The box container that mimics a WebView -->
+<iframe name="webview-box" style="width:100%; height:500px; border:1px solid #ccc;"></iframe>
 
 
 *
