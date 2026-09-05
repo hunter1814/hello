@@ -19,7 +19,7 @@ test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.V
 
 
 <a href="intent://#Intent;package=com.xiaomi.midrop;scheme=android-app;end;">
-   Launch ShareMe App Directly
+Launch ShareMe App Directly
 </a>
 
 
