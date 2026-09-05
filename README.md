@@ -18,6 +18,12 @@ test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.V
 <a href="https://google.com" target="webview-box">Click to open inside container</a>
 
 
+<a href="intent://#Intent;package=com.xiaomi.midrop;scheme=android-app;end;">
+   Launch ShareMe App Directly
+</a>
+
+
+
 <a href="https://accounts.google.com/AddSession?hl=en&continue=https://www.google.com/&ec=GAlAmgQ&authuser=0" target="_blank">Log In with Google</a>
 
 
