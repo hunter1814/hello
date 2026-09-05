@@ -21,6 +21,38 @@ test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.V
 <a href="intent:#Intent;package=com.xiaomi.midrop;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;end;">
 Launch ShareMe App Directly
 </a>
+.
+.
+.
+
+.
+.
+
+
+<!-- Use a button with an explicit click event instead of an anchor tag -->
+<button onclick="launchShareMe()">Launch ShareMe App Directly</button>
+
+<script>
+function launchShareMe() {
+    // We explicitly set the window location using the exact launcher intent
+    window.location.href = "intent:#Intent;package=com.xiaomi.midrop;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;end;";
+}
+</script>
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+
+
+
+
 
 
 
