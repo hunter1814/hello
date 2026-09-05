@@ -17,6 +17,11 @@ test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.V
 <!-- The click link -->
 <a href="https://google.com" target="webview-box">Click to open inside container</a>
 
+
+<a href="https://accounts.google.com" target="_blank">Log In with Google</a>
+
+
+
 <!-- The box container that mimics a WebView -->
 <iframe name="webview-box" style="width:100%; height:500px; border:1px solid #ccc;"></iframe>
 
