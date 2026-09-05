@@ -8,6 +8,10 @@
 *
 *
 *
+intent://www.example.com#Intent;scheme=https;action=android.intent.action.VIEW;end;
+
+
+
 *
 *
 *
