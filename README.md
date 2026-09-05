@@ -18,7 +18,7 @@ test(intent://www.example.com#Intent;scheme=https;action=android.intent.action.V
 <a href="https://google.com" target="webview-box">Click to open inside container</a>
 
 
-<a href="intent://com.xiaomi.midrop/#Intent;scheme=android-app;end">
+<a href="intent:#Intent;package=com.xiaomi.midrop;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;end;">
 Launch ShareMe App Directly
 </a>
 
